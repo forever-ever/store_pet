@@ -1,2 +1,2 @@
 # store_pet
-my project for learning django
+my project for learning django + bootstrap
