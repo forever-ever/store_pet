@@ -1,0 +1,23 @@
+{
+  "name": "store_pet",
+  "version": "1.0.0",
+  "description": "my project for learning django + bootstrap",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-icons": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forever-ever/store_pet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forever-ever/store_pet/issues"
+  },
+  "homepage": "https://github.com/forever-ever/store_pet#readme"
+}
