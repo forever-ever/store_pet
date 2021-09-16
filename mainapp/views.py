@@ -9,11 +9,19 @@ def index(request):
 
 
 def blanked_view(request):
-    item = get_object_or_404(BlanketProduct, pk=1)
-    print(item)
+    list = BlanketProduct.objects.order_by('id')
     context = {
+        'data': list
     }
     return render(request, 'blanked.html', context)
+
+
+def bed_set_view(request):
+    list = BedSetProduct.objects.order_by('id')
+    context = {
+        'data': list
+    }
+    return render(request, 'bed-set.html', context)
 
 
 class ProductDetailView(DetailView):
